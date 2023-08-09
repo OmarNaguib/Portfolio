@@ -12,7 +12,8 @@
 
 .work {
   display: grid;
-  justify-content: start;
+  /* justify-content: center;
+  justify-items: center; */
 }
 
 .work h1 {
@@ -23,7 +24,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
-  max-width: 900px;
+  align-content: center;
+  max-width: 805px;
   gap: 10px 20px;
 }
 

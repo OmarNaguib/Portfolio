@@ -22,10 +22,8 @@ export default function Projects() {
   });
   return (
     <section className="work">
-      <div className="projects">
-        <h1>My Work</h1>
-        {projects}
-      </div>
+      <h1>My Work</h1>
+      <div className="projects">{projects}</div>
     </section>
   );
 }
