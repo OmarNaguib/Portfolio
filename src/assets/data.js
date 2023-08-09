@@ -20,7 +20,7 @@ const shoppingCart = Project(
   shoppingCartPic,
   "https://github.com/OmarNaguib/Shopping-Cart",
   "A fully tested React app that uses client side routing.",
-  "omarnaguib.github.io/Shopping-Cart/"
+  "https://omarnaguib.github.io/Shopping-Cart/"
 );
 
 const memoryGame = Project(
@@ -28,7 +28,7 @@ const memoryGame = Project(
   memoryGamePic,
   "https://github.com/OmarNaguib/Memory-Game",
   "A fun little game made with functional React components.",
-  "omarnaguib.github.io/Memory-Game/"
+  "https://omarnaguib.github.io/Memory-Game/"
 );
 
 const cvBuilder = Project(
@@ -36,7 +36,7 @@ const cvBuilder = Project(
   cvBuilderPic,
   "https://github.com/OmarNaguib/CV-Builder",
   "Utilizing React to manage user input and compile a simple resume.",
-  "omarnaguib.github.io/CV-Builder/"
+  "https://omarnaguib.github.io/CV-Builder/"
 );
 
 const battleship = Project(
@@ -44,7 +44,7 @@ const battleship = Project(
   battleshipPic,
   "https://github.com/OmarNaguib/Battleship",
   "A unit tested and SOLID aware implementaion of the popular game.",
-  "omarnaguib.github.io/Battleship//"
+  "https://omarnaguib.github.io/Battleship//"
 );
 
 const todo = Project(
@@ -52,7 +52,7 @@ const todo = Project(
   todoPic,
   "https://github.com/OmarNaguib/Todo-List",
   "A website to keep track of your tasks. made with vanilla js",
-  "omarnaguib.github.io/Todo-List/"
+  "https://omarnaguib.github.io/Todo-List/"
 );
 
 const weatherApp = Project(
@@ -60,7 +60,7 @@ const weatherApp = Project(
   weatherAppPic,
   "https://github.com/OmarNaguib/Weather-App",
   "Consuming an API endpoint to display weather data to user>",
-  "omarnaguib.github.io/Weather-App/"
+  "https://omarnaguib.github.io/Weather-App/"
 );
 
 const data = [
