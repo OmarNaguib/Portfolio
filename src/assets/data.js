@@ -2,7 +2,7 @@ import shoppingCartPic from "./screenshots/shoppingCart.png";
 import memoryGamePic from "./screenshots/memoryGame.png";
 import cvBuilderPic from "./screenshots/cvBuilder.png";
 import battleshipPic from "./screenshots/battleship.png";
-import todoPic from "./screenshots/todo.png";
+import todoPic from "./screenshots/todoList.png";
 import weatherAppPic from "./screenshots/weatherApp.png";
 
 const Project = (name, screenshot, repo, description, live) => {
