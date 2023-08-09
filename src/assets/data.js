@@ -59,7 +59,7 @@ const weatherApp = Project(
   "Weather App",
   weatherAppPic,
   "https://github.com/OmarNaguib/Weather-App",
-  "Consuming an API endpoint to display weather data to user>",
+  "Consuming an API endpoint to display weather data to user.",
   "https://omarnaguib.github.io/Weather-App/"
 );
 
