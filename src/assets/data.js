@@ -20,45 +20,45 @@ const shoppingCart = Project(
   shoppingCartPic,
   "https://github.com/OmarNaguib/Shopping-Cart",
   "A fully tested react app that uses client side routing",
-  "https://omarnaguib.github.io/Shopping-Cart/"
+  "omarnaguib.github.io/Shopping-Cart/"
 );
 
 const memoryGame = Project(
   "Memory Game",
   memoryGamePic,
-  "https://github.com/OmarNaguib/Shopping-Cart",
+  "https://github.com/OmarNaguib/Memory-Game",
   "A fully tested react app that uses client side routing",
-  "https://omarnaguib.github.io/Shopping-Cart/"
+  "omarnaguib.github.io/Memory-Game/"
 );
 
 const cvBuilder = Project(
   "Shopping Cart",
   cvBuilderPic,
-  "https://github.com/OmarNaguib/Shopping-Cart",
+  "https://github.com/OmarNaguib/CV-Builder",
   "A fully tested react app that uses client side routing",
-  "https://omarnaguib.github.io/Shopping-Cart/"
+  "omarnaguib.github.io/CV-Builder/"
 );
 
 const battleship = Project(
   "Shopping Cart",
   battleshipPic,
-  "https://github.com/OmarNaguib/Shopping-Cart",
+  "https://github.com/OmarNaguib/Battleship",
   "A fully tested react app that uses client side routing",
-  "https://omarnaguib.github.io/Shopping-Cart/"
+  "omarnaguib.github.io/Battleship//"
 );
 
 const todo = Project(
   "Shopping Cart",
   todoPic,
-  "https://github.com/OmarNaguib/Shopping-Cart",
+  "https://github.com/OmarNaguib/Todo-List",
   "A fully tested react app that uses client side routing",
-  "https://omarnaguib.github.io/Shopping-Cart/"
+  "omarnaguib.github.io/Todo-List/"
 );
 
 const weatherApp = Project(
   "Shopping Cart",
   weatherAppPic,
-  "https://github.com/OmarNaguib/Shopping-Cart",
+  "https://github.com/OmarNaguib/Weather-App",
   "A fully tested react app that uses client side routing",
-  "https://omarnaguib.github.io/Shopping-Cart/"
+  "omarnaguib.github.io/Weather-App/"
 );
