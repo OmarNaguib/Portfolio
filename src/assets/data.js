@@ -19,7 +19,7 @@ const shoppingCart = Project(
   "Shopping Cart",
   shoppingCartPic,
   "https://github.com/OmarNaguib/Shopping-Cart",
-  "A fully tested react app that uses client side routing",
+  "A fully tested React app that uses client side routing.",
   "omarnaguib.github.io/Shopping-Cart/"
 );
 
@@ -27,38 +27,49 @@ const memoryGame = Project(
   "Memory Game",
   memoryGamePic,
   "https://github.com/OmarNaguib/Memory-Game",
-  "A fully tested react app that uses client side routing",
+  "A fun little game made with functional React components.",
   "omarnaguib.github.io/Memory-Game/"
 );
 
 const cvBuilder = Project(
-  "Shopping Cart",
+  "CV Builder",
   cvBuilderPic,
   "https://github.com/OmarNaguib/CV-Builder",
-  "A fully tested react app that uses client side routing",
+  "Utilizing React to manage user input and compile a simple resume.",
   "omarnaguib.github.io/CV-Builder/"
 );
 
 const battleship = Project(
-  "Shopping Cart",
+  "Battleship",
   battleshipPic,
   "https://github.com/OmarNaguib/Battleship",
-  "A fully tested react app that uses client side routing",
+  "A unit tested and SOLID aware implementaion of the popular game.",
   "omarnaguib.github.io/Battleship//"
 );
 
 const todo = Project(
-  "Shopping Cart",
+  "Todo List",
   todoPic,
   "https://github.com/OmarNaguib/Todo-List",
-  "A fully tested react app that uses client side routing",
+  "A website to keep track of your tasks. made with vanilla js",
   "omarnaguib.github.io/Todo-List/"
 );
 
 const weatherApp = Project(
-  "Shopping Cart",
+  "Weather App",
   weatherAppPic,
   "https://github.com/OmarNaguib/Weather-App",
-  "A fully tested react app that uses client side routing",
+  "Consuming an API endpoint to display weather data to user>",
   "omarnaguib.github.io/Weather-App/"
 );
+
+const data = [
+  shoppingCart,
+  memoryGame,
+  cvBuilder,
+  battleship,
+  todo,
+  weatherApp,
+];
+
+export default data;
