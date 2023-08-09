@@ -6,11 +6,11 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <>
+    <div className="app">
       <Header></Header>
       <Projects></Projects>
       <Contact></Contact>
-    </>
+    </div>
   );
 }
 

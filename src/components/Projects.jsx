@@ -5,23 +5,27 @@ export default function Projects() {
     return (
       <div key={dataItem.name} className="project">
         <img src={dataItem.screenshot} alt={dataItem.name + " screenshot"} />
-        <div>
+        <div className="row">
           <h2>{dataItem.name}</h2>
-          <a href={dataItem.repo} target="_blank" rel="noreferrer">
-            repo
-          </a>
-          <a href={dataItem.live} target="_blank" rel="noreferrer">
-            live
-          </a>
-          <p>{dataItem.description}</p>
+          <div className="links">
+            <a href={dataItem.repo} target="_blank" rel="noreferrer">
+              repo
+            </a>
+            <a href={dataItem.live} target="_blank" rel="noreferrer">
+              live
+            </a>
+          </div>
         </div>
+        <p>{dataItem.description}</p>
       </div>
     );
   });
   return (
-    <section>
-      <h1>My Work</h1>
-      <div className="projects">{projects}</div>
+    <section className="work">
+      <div className="projects">
+        <h1>My Work</h1>
+        {projects}
+      </div>
     </section>
   );
 }

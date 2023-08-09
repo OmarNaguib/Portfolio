@@ -1,6 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap");
 
-#root>*{
-    min-height: 80vh;
-    border: 3px solid black;
+.app {
+  display: grid;
+  place-content: center;
+}
+
+.app > * {
+  min-height: 80vh;
+  border: 3px solid black;
+}
+
+.work {
+  display: grid;
+  justify-content: start;
+}
+
+.work h1 {
+  min-width: 70%;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  max-width: 900px;
+  gap: 10px 20px;
+}
+
+.project {
+  border: 3px solid black;
+  width: 250px;
+}
+
+.project img {
+  width: 100%;
+}
+
+.project > div.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
 }
