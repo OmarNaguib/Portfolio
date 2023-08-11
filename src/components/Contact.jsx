@@ -1,4 +1,4 @@
-import profilePic from "./../assets/profile.jpg";
+import profilePic from "./../assets/personal/profile.jpg";
 
 export default function Contact() {
   return (

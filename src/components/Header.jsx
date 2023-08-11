@@ -1,10 +1,14 @@
-import headerPic from "./../assets/header.jpg";
+import headerLandscapePic from "./../assets/personal/header-landscape.jpg";
+import headerPortraitPic from "./../assets/personal/header-portrait.jpg";
+import headerSquarePic from "./../assets/personal/header-square.jpg";
 
 export default function Header() {
   return (
     <section className="header">
-      <img src={headerPic} alt="" />
-      <h1>Omar Naguib</h1>
+      <div className="left-section">
+        <img src={headerSquarePic} alt="" />
+        <h1>Omar Naguib</h1>
+      </div>
       <div className="about">
         <h2>About me</h2>
         <p>
