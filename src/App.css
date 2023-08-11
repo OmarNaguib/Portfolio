@@ -3,30 +3,33 @@
 .app {
   display: grid;
   place-content: center;
+  place-items: center;
+  grid-auto-columns: 1fr;
 }
 
 .app > * {
-  min-height: 80vh;
   border: 3px solid black;
 }
 
-.work {
-  display: grid;
-  /* justify-content: center;
-  justify-items: center; */
+/* header section */
+.header img {
+  max-width: 400px;
 }
+/* projects section */
 
-.work h1 {
-  min-width: 70%;
+.work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .projects {
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
-  align-content: center;
-  max-width: 805px;
+  align-items: center;
   gap: 10px 20px;
+  max-width: 805px;
 }
 
 .project {
@@ -47,4 +50,26 @@
 .links {
   display: flex;
   gap: 1rem;
+}
+
+/* contact section */
+
+.contact {
+  display: flex;
+}
+
+.contact img {
+  height: 300px;
+}
+
+@media (max-width: 838px) {
+  .projects {
+    max-width: 530px;
+  }
+}
+
+@media (max-width: 562px) {
+  .projects {
+    max-width: 250px;
+  }
 }
