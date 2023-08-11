@@ -2,7 +2,7 @@ import profilePic from "./../assets/profile.jpg";
 
 export default function Contact() {
   return (
-    <section>
+    <section className="contact">
       <div className="contact-info">
         <h2>Contact me</h2>
         <p>
