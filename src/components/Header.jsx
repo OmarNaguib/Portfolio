@@ -21,9 +21,7 @@ export default function Header() {
           vehicula justo sed interdum. Lorem ipsum dolor sit amet, consectetur
           adipiscing elit. Suspendisse id orci ac mi viverra condimentum eu id
           quam. Praesent leo dolor, iaculis et velit sit amet, lobortis ultrices
-          quam. Suspendisse non faucibus nulla, ac interdum urna. In suscipit eu
-          massa sit amet euismod. Aliquam venenatis velit ex, vitae tincidunt
-          lorem mollis ut.
+          quam.
         </p>
         <div className="links">
           <a

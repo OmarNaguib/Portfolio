@@ -101,6 +101,11 @@
   .header {
     display: block;
   }
+  .header img,
+  .header picture {
+    width: clamp(270px, 45vw, 400px);
+    height: clamp(270px, 45vw, 400px);
+  }
   .left-section {
     float: left;
   }
@@ -111,10 +116,13 @@
     left: 130px;
   }
   .about {
-    width: 400px;
-    /* float: right; */
-    margin-left: 250px;
+    width: clamp(270px, 45vw, 400px);
+    height: clamp(200px, 45vw, 250px);
+    margin-left: 35vw;
     margin-top: 200px;
+  }
+  .links {
+    display: none;
   }
   /* projects */
   .projects {
