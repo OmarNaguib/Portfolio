@@ -33,17 +33,20 @@
   margin: 0px 15px;
   color: white;
 }
+.header img {
+  max-width: 350px;
+}
 
 .about {
   background-color: white;
   height: 300px;
   width: 450px;
-  padding: 3px;
+  padding: 0px 20px 0px 3px;
+}
+.about .links {
+  justify-content: end;
 }
 
-.header img {
-  max-width: 350px;
-}
 /* projects section */
 
 .work {
@@ -92,6 +95,26 @@
 }
 
 @media (max-width: 838px) {
+  /* header */
+  .header {
+    display: block;
+  }
+  .left-section {
+    float: left;
+  }
+  .left-section > h1 {
+    position: relative;
+    align-self: start;
+    justify-self: end;
+    left: 130px;
+  }
+  .about {
+    width: 400px;
+    /* float: right; */
+    margin-left: 250px;
+    margin-top: 200px;
+  }
+  /* projects */
   .projects {
     max-width: 530px;
   }
