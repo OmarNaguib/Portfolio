@@ -6,7 +6,12 @@ export default function Header() {
   return (
     <section className="header">
       <div className="left-section">
-        <img src={headerSquarePic} alt="" />
+        <picture>
+          <source srcSet={headerSquarePic} media="(min-width: 562px)" />
+          <source srcSet={headerPortraitPic} media="(max-width: 562px)" />
+          <img src={headerSquarePic} alt="presenting" />
+        </picture>
+        {/* <img src={headerSquarePic} alt="" /> */}
         <h1>Omar Naguib</h1>
       </div>
       <div className="about">

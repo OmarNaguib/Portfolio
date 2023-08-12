@@ -33,8 +33,10 @@
   margin: 0px 15px;
   color: white;
 }
-.header img {
+.header img,
+.header picture {
   max-width: 350px;
+  max-height: 350px;
 }
 
 .about {
