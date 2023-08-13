@@ -1,4 +1,5 @@
 import { useState } from "react";
+// import "./reset.css";
 import "./App.css";
 import Header from "./components/Header";
 import Projects from "./components/Projects";
