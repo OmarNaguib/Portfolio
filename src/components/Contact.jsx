@@ -6,7 +6,7 @@ export default function Contact() {
     <section className="contact">
       <div className="contact-info">
         <h2>Contact me</h2>
-        <p>
+        <p className="prompt">
           Please get in touch if you think our work could be mutually
           beneficial!
         </p>
