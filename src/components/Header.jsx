@@ -1,5 +1,8 @@
 import headerPortraitPic from "./../assets/personal/header-portrait.jpg";
 import headerSquarePic from "./../assets/personal/header-square.jpg";
+import githubIcon from "./../assets/icons/github.svg";
+import linkedinIcon from "./../assets/icons/linkedin.svg";
+import twitterIcon from "./../assets/icons/twitter.svg";
 
 export default function Header() {
   return (
@@ -8,7 +11,11 @@ export default function Header() {
         <picture>
           <source srcSet={headerPortraitPic} media="(max-width: 562px)" />
           <source srcSet={headerSquarePic} media="(min-width: 562px)" />
-          <img src={headerSquarePic} alt="presenting" />
+          <img
+            src={headerSquarePic}
+            alt="presenting"
+            className="header-image"
+          />
         </picture>
 
         <h1>Omar Naguib</h1>
@@ -27,17 +34,21 @@ export default function Header() {
             href="https://github.com/OmarNaguib"
             target="_blank"
             rel="noreferrer"
+            aria-label="github"
           >
-            github
+            <img src={githubIcon} alt="" className="icon" />
           </a>
           <a
             href="https://www.linkedin.com/in/omarnaguib0/"
             target="_blank"
             rel="noreferrer"
+            aria-label="linkedin"
           >
-            linkedIn
+            <img src={linkedinIcon} alt="" className="icon" />
           </a>
-          <a href="">twitter</a>
+          <a href="" target="_blank" rel="noreferrer" aria-label="linkedin">
+            <img src={twitterIcon} alt="" className="icon" />
+          </a>
         </div>
       </div>
     </section>

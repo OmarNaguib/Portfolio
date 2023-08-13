@@ -7,6 +7,7 @@ html {
 p {
   margin: 0;
 }
+
 .app {
   display: grid;
   place-content: center;
@@ -21,6 +22,10 @@ img {
 /* .app > * {
   border: 3px solid black;
 } */
+
+img.icon {
+  height: 30px;
+}
 
 /* header section */
 .header {
@@ -44,8 +49,7 @@ img {
   margin: 0px 15px;
   color: white;
 }
-.header img,
-.header picture {
+.header-image {
   max-width: 350px;
   max-height: 350px;
 }
@@ -106,7 +110,7 @@ img {
   padding: 0px 20px;
 }
 
-.contact img {
+.contact-image {
   height: 250px;
   margin: 20px 0px;
 }
@@ -120,8 +124,7 @@ img {
   .header {
     display: block;
   }
-  .header img,
-  .header picture {
+  img.header-image {
     width: clamp(270px, 45vw, 400px);
     height: clamp(270px, 45vw, 400px);
   }
@@ -140,9 +143,9 @@ img {
     margin-left: 35vw;
     margin-top: 200px;
   }
-  .header .links {
+  /* .header .links {
     display: none;
-  }
+  } */
   /* projects */
   .projects {
     max-width: 530px;
@@ -167,11 +170,8 @@ img {
     justify-self: start;
     width: 7ch;
   }
-  .header img,
-  .header picture {
-    display: block;
+  img.header-image {
     width: clamp(200px, 80vw, 400px);
-    aspect-ratio: 2/3;
     height: auto;
     max-width: none;
     max-height: none;
@@ -207,7 +207,7 @@ img {
     padding: 0px;
     width: 100%;
   }
-  .contact img {
+  .contact-image {
     width: 100%;
     height: auto;
     object-fit: cover;

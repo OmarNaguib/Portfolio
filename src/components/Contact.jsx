@@ -1,5 +1,8 @@
 import profilePicPortrait from "./../assets/personal/profile.jpg";
 import profilePicLandscape from "./../assets/personal/profile-landscape.jpg";
+import githubIcon from "./../assets/icons/github.svg";
+import linkedinIcon from "./../assets/icons/linkedin.svg";
+import twitterIcon from "./../assets/icons/twitter.svg";
 
 export default function Contact() {
   return (
@@ -20,24 +23,28 @@ export default function Contact() {
             href="https://github.com/OmarNaguib"
             target="_blank"
             rel="noreferrer"
+            aria-label="github"
           >
-            github
+            <img src={githubIcon} alt="" className="icon" />
           </a>
           <a
             href="https://www.linkedin.com/in/omarnaguib0/"
             target="_blank"
             rel="noreferrer"
+            aria-label="linkedin"
           >
-            linkedIn
+            <img src={linkedinIcon} alt="" className="icon" />
           </a>
-          <a href="">twitter</a>
+          <a href="" target="_blank" rel="noreferrer" aria-label="linkedin">
+            <img src={twitterIcon} alt="" className="icon" />
+          </a>
         </div>
       </div>
 
       <picture>
         <source srcSet={profilePicLandscape} media="(min-width: 838px)" />
         <source srcSet={profilePicPortrait} media="(max-width: 838px)" />
-        <img src={profilePicPortrait} alt="" />
+        <img src={profilePicPortrait} alt="" className="contact-image" />
       </picture>
     </section>
   );
