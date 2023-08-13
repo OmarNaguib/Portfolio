@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap");
-
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+}
 .app {
   display: grid;
   place-content: center;
@@ -11,9 +18,9 @@ img {
   display: block;
 }
 
-.app > * {
+/* .app > * {
   border: 3px solid black;
-}
+} */
 
 /* header section */
 .header {
@@ -73,6 +80,7 @@ img {
 .project {
   border: 3px solid black;
   width: 250px;
+  padding-bottom: 30px;
 }
 
 .project img {
@@ -145,7 +153,7 @@ img {
   .header {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: auto;
     align-items: center;
   }
   .left-section {
@@ -169,7 +177,7 @@ img {
   }
   .about {
     margin: 0;
-    width: 100%;
+    width: auto;
     height: auto;
     padding: 5px;
     display: flex;
@@ -194,5 +202,25 @@ img {
   .contact {
     display: flex;
     flex-direction: column;
+    align-items: start;
+    padding: 0px;
+    width: 100%;
+  }
+  .contact img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin: 0;
+  }
+  .contact-info {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+  }
+  .contact-info > h2 {
+    align-self: center;
   }
 }
