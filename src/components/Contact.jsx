@@ -1,4 +1,5 @@
-import profilePic from "./../assets/personal/profile.jpg";
+import profilePicPortrait from "./../assets/personal/profile.jpg";
+import profilePicLandscape from "./../assets/personal/profile-landscape.jpg";
 
 export default function Contact() {
   return (
@@ -32,7 +33,12 @@ export default function Contact() {
           <a href="">twitter</a>
         </div>
       </div>
-      <img src={profilePic} alt="" />
+
+      <picture>
+        <source srcSet={profilePicLandscape} media="(min-width: 838px)" />
+        <source srcSet={profilePicPortrait} media="(max-width: 838px)" />
+        <img src={profilePicPortrait} alt="" />
+      </picture>
     </section>
   );
 }
