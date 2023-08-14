@@ -9,8 +9,8 @@ export default function Header() {
     <section className="header">
       <div className="left-section">
         <picture>
-          <source srcSet={headerPortraitPic} media="(max-width: 562px)" />
-          <source srcSet={headerSquarePic} media="(min-width: 562px)" />
+          <source srcSet={headerPortraitPic} media="(max-width: 660px)" />
+          <source srcSet={headerSquarePic} media="(min-width: 660px)" />
           <img
             src={headerSquarePic}
             alt="presenting"

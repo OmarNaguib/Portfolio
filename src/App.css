@@ -26,7 +26,22 @@ img {
 img.icon {
   height: 30px;
 }
+h1,
+h2 {
+  font-weight: 500;
+  font-family: "Playfair Display", serif;
+}
 
+h1 {
+  font-size: 38px;
+}
+h2 {
+  font-size: 26px;
+}
+
+.app {
+  font-family: "Roboto", serif;
+}
 /* header section */
 .header {
   display: grid;
@@ -75,12 +90,10 @@ img.icon {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 0px 20px;
 }
 
 .work > h1 {
-  font-size: 38px;
-  font-weight: 500;
-  font-family: "Playfair Display", serif;
   margin-bottom: 15px;
 }
 
@@ -89,15 +102,17 @@ img.icon {
   flex-wrap: wrap;
   justify-content: start;
   align-items: center;
-  gap: 20px 20px;
-  max-width: 805px;
+  gap: 60px 40px;
+  max-width: 1130px;
 }
 
 .project {
   box-sizing: border-box;
-  width: 250px;
+  width: clamp(300px, calc(33.333% - 27px), 350px);
   padding-bottom: 30px;
   box-shadow: 0px 2px 5px 3px rgb(0, 0, 0, 0.3);
+  padding-bottom: 60px;
+  min-height: 380px;
 }
 
 .project img {
@@ -108,6 +123,12 @@ img.icon {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0px 10px;
+}
+.project > p {
+  padding: 0px 10px;
+  font-size: 20px;
+  color: rgb(0, 0, 0, 0.8);
 }
 
 .links {
@@ -131,7 +152,7 @@ img.icon {
   width: 280px;
 }
 
-@media (max-width: 838px) {
+@media (max-width: 1034px) {
   /* header */
   .header {
     display: block;
@@ -160,11 +181,15 @@ img.icon {
   } */
   /* projects */
   .projects {
-    max-width: 530px;
+    max-width: 740px;
+  }
+
+  .project {
+    width: clamp(240px, calc(50% - 20px), 350px);
   }
 }
 
-@media (max-width: 562px) {
+@media (max-width: 660px) {
   /* header */
   .header {
     display: flex;
@@ -210,7 +235,10 @@ img.icon {
 
   /* projects */
   .projects {
-    max-width: 250px;
+    width: min-content;
+  }
+  .project {
+    width: clamp(240px, 80vw, 350px);
   }
   .work > h1 {
     align-self: center;

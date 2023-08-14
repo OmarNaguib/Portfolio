@@ -42,8 +42,8 @@ export default function Contact() {
       </div>
 
       <picture>
-        <source srcSet={profilePicLandscape} media="(min-width: 838px)" />
-        <source srcSet={profilePicPortrait} media="(max-width: 838px)" />
+        <source srcSet={profilePicLandscape} media="(min-width: 1034px)" />
+        <source srcSet={profilePicPortrait} media="(max-width: 1034px)" />
         <img src={profilePicPortrait} alt="" className="contact-image" />
       </picture>
     </section>
