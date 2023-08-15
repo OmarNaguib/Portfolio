@@ -7,7 +7,7 @@ export default function Projects() {
       <div key={dataItem.name} className="project">
         <img src={dataItem.screenshot} alt={dataItem.name + " screenshot"} />
         <div className="row">
-          <h2>{dataItem.name}</h2>
+          <h3>{dataItem.name}</h3>
           <div className="links">
             <a
               href={dataItem.repo}
@@ -33,7 +33,7 @@ export default function Projects() {
   });
   return (
     <section className="work">
-      <h1>My Work</h1>
+      <h2>My Work</h2>
       <div className="projects">{projects}</div>
     </section>
   );

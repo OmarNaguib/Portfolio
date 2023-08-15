@@ -16,8 +16,10 @@ export default function Contact() {
         <p>
           Mansoura, <br /> Dakahlia, Egypt
         </p>
-        <p>+2 01000549518</p>
-        <p>omar.nagiub2001@gmail.com</p>
+        <div className="phone-email">
+          <p>+2 01000549518</p>
+          <p>omar.nagiub2001@gmail.com</p>
+        </div>
         <div className="links">
           <a
             href="https://github.com/OmarNaguib"

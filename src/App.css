@@ -6,6 +6,7 @@ html {
 }
 p {
   margin: 0;
+  font-size: 18px;
 }
 
 .app {
@@ -13,6 +14,12 @@ p {
   place-content: center;
   place-items: center;
   grid-auto-columns: 1fr;
+}
+.app > section {
+  margin-bottom: 100px;
+}
+.app > :last-child {
+  margin-bottom: 0;
 }
 picture,
 img {
@@ -27,15 +34,20 @@ img.icon {
   height: 30px;
 }
 h1,
-h2 {
-  font-weight: 500;
+h2,
+h3 {
   font-family: "Playfair Display", serif;
+  font-weight: 500;
 }
 
 h1 {
-  font-size: 38px;
+  font-size: 50px;
+  font-weight: 400;
 }
 h2 {
+  font-size: 38px;
+}
+h3 {
   font-size: 26px;
 }
 
@@ -45,11 +57,15 @@ h2 {
 /* header section */
 .header {
   display: grid;
-  grid-template-columns: 350px 1fr;
+  grid-template-columns: 600px 1fr;
   justify-content: center;
   align-content: center;
   align-items: center;
   background-color: rgb(146, 146, 238);
+  max-width: 1130px;
+}
+.header h1 {
+  font-size: 90px;
 }
 .left-section {
   display: grid;
@@ -67,16 +83,16 @@ h2 {
 }
 .header-image {
   position: relative;
-  max-width: 350px;
-  max-height: 350px;
+  max-width: 600px;
+  max-height: 600px;
   box-shadow: 2px 0px 5px 3px rgb(0, 0, 0, 0.2);
   z-index: 2;
 }
 
 .about {
   background-color: white;
-  height: 300px;
-  width: 450px;
+  height: 400px;
+  width: 500px;
   padding: 0px 20px 0px 3px;
   box-shadow: 2px 0px 5px 3px rgb(0, 0, 0, 0.2);
 }
@@ -93,7 +109,7 @@ h2 {
   padding: 0px 20px;
 }
 
-.work > h1 {
+.work > h2 {
   margin-bottom: 15px;
 }
 
@@ -139,17 +155,33 @@ h2 {
 /* contact section */
 
 .contact {
+  box-sizing: border-box;
+  padding: 20px 20px;
   display: flex;
-  padding: 0px 20px;
+  width: 100%;
+  justify-content: center;
+  background-color: #0891b2;
+  color: white;
+  /* font-weight: 700; */
 }
 
 .contact-image {
-  height: 250px;
+  height: 400px;
   margin: 20px 0px;
 }
 
+.contact-info > * {
+  margin-bottom: 30px;
+}
+
+.phone-email {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .prompt {
-  width: 280px;
+  max-width: 350px;
 }
 
 @media (max-width: 1034px) {
@@ -240,7 +272,7 @@ h2 {
   .project {
     width: clamp(240px, 80vw, 350px);
   }
-  .work > h1 {
+  .work > h2 {
     align-self: center;
   }
   /* contact */
@@ -261,11 +293,11 @@ h2 {
     box-sizing: border-box;
     width: 100%;
     padding: 0px 20px;
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
+    display: grid;
+
+    justify-content: center;
   }
   .contact-info > h2 {
-    align-self: center;
+    justify-self: center;
   }
 }
