@@ -51,6 +51,17 @@ export default function Header() {
           </a>
         </div>
       </div>
+      {/* <div className="background"></div> */}
+      <svg
+        width="100%"
+        height="100%"
+        viewBox="0 0 100 100"
+        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="none"
+        className="background"
+      >
+        <polygon points="0,0 100,0 100,60 0,100"></polygon>
+      </svg>
     </section>
   );
 }

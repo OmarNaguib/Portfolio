@@ -61,9 +61,25 @@ h3 {
   justify-content: center;
   align-content: center;
   align-items: center;
-  background-color: #0891b2;
+  /* background-color: #0891b2; */
   max-width: 1130px;
+  padding: 50px 50px;
 }
+.header .background {
+  box-sizing: border-box;
+  position: absolute;
+  width: 100vw;
+  height: 70%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  color: #0891b2;
+  background-color: #fff;
+}
+polygon {
+  fill: #0891b2;
+}
+
 .header h1 {
   font-size: 75px;
 }
@@ -209,7 +225,6 @@ svg {
   .header {
     display: block;
     /* margin: 0px 50px; */
-    padding: 100px 50px;
   }
   img.header-image {
     width: clamp(380px, 45vw, 470px);
