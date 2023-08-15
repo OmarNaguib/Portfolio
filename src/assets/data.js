@@ -1,9 +1,9 @@
-import shoppingCartPic from "./screenshots/shoppingCart.png";
-import memoryGamePic from "./screenshots/memoryGame.png";
-import cvBuilderPic from "./screenshots/cvBuilder.png";
-import battleshipPic from "./screenshots/battleship.png";
-import todoPic from "./screenshots/todoList.png";
-import weatherAppPic from "./screenshots/weatherApp.png";
+import shoppingCartPic from "./screenshots/compressed/shoppingCart.png";
+import memoryGamePic from "./screenshots/compressed/memoryGame.png";
+import cvBuilderPic from "./screenshots/compressed/cvBuilder.png";
+import battleshipPic from "./screenshots/compressed/battleship.png";
+import todoPic from "./screenshots/compressed/todoList.png";
+import weatherAppPic from "./screenshots/compressed/weatherApp.png";
 
 const Project = (name, screenshot, repo, description, live) => {
   return {
