@@ -36,7 +36,7 @@ export default function Header() {
             rel="noreferrer"
             aria-label="github"
           >
-            <img src={githubIcon} alt="" className="icon" />
+            <img src={githubIcon} alt="" className="icon rotate" />
           </a>
           <a
             href="https://www.linkedin.com/in/omarnaguib0/"
