@@ -57,15 +57,15 @@ h3 {
 /* header section */
 .header {
   display: grid;
-  grid-template-columns: 600px 1fr;
+  grid-template-columns: 0.9fr 1fr;
   justify-content: center;
   align-content: center;
   align-items: center;
-  background-color: rgb(146, 146, 238);
+  background-color: #0891b2;
   max-width: 1130px;
 }
 .header h1 {
-  font-size: 90px;
+  font-size: 75px;
 }
 .left-section {
   display: grid;
@@ -82,22 +82,32 @@ h3 {
   z-index: 3;
 }
 .header-image {
+  width: 100%;
   position: relative;
-  max-width: 600px;
-  max-height: 600px;
+  /* max-width: 500px;
+  max-height: 500px; */
   box-shadow: 2px 0px 5px 3px rgb(0, 0, 0, 0.2);
   z-index: 2;
 }
 
 .about {
   background-color: white;
-  height: 400px;
-  width: 500px;
-  padding: 0px 20px 0px 3px;
+  height: 350px;
+  /* width: 600px; */
+  padding: 0px 20px 0px 20px;
   box-shadow: 2px 0px 5px 3px rgb(0, 0, 0, 0.2);
 }
 .about .links {
+  margin-top: 20px;
+  padding-bottom: 20px;
   justify-content: end;
+}
+.about > h2 {
+  font-size: 45px;
+}
+.about > p {
+  font-size: 22px;
+  color: rgb(0, 0, 0, 0.8);
 }
 
 /* projects section */
@@ -188,25 +198,31 @@ h3 {
   /* header */
   .header {
     display: block;
+    /* margin: 0px 50px; */
+    padding: 100px 50px;
   }
   img.header-image {
-    width: clamp(270px, 45vw, 400px);
-    height: clamp(270px, 45vw, 400px);
+    width: clamp(380px, 45vw, 470px);
+    height: clamp(380px, 45vw, 470px);
   }
   .left-section {
     float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
   }
   .left-section > h1 {
-    position: relative;
+    position: absolute;
     align-self: start;
-    justify-self: end;
-    left: 130px;
+    right: 1ch;
   }
   .about {
-    width: clamp(270px, 45vw, 400px);
-    height: clamp(200px, 45vw, 250px);
-    margin-left: 35vw;
+    width: clamp(380px, 50vw, 570px);
+    height: clamp(470px, 50vw, 570px);
+    margin-left: 20vw;
     margin-top: 200px;
+  }
+  .about h2 {
+    text-align: center;
   }
   /* .header .links {
     display: none;
@@ -228,6 +244,8 @@ h3 {
     flex-direction: column;
     width: auto;
     align-items: center;
+    padding-right: 0px;
+    padding-left: 0px;
   }
   .left-section {
     float: none;
@@ -246,6 +264,7 @@ h3 {
     max-height: none;
   }
   .about {
+    padding: 0;
     margin: 0;
     width: auto;
     height: auto;
@@ -255,6 +274,8 @@ h3 {
     align-items: center;
     justify-content: start;
     box-shadow: none;
+    max-width: 500px;
+    background-color: transparent;
   }
   .about > h2 {
     margin: 0;
