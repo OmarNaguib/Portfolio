@@ -31,7 +31,7 @@ img {
 } */
 
 img.icon {
-  height: 30px;
+  height: 35px;
 }
 h1,
 h2,
@@ -127,7 +127,7 @@ polygon {
 
 .about {
   background-color: white;
-  height: 350px;
+  height: 400px;
   /* width: 600px; */
   padding: 0px 20px 0px 20px;
   box-shadow: 2px 0px 5px 3px rgb(0, 0, 0, 0.2);
@@ -299,6 +299,7 @@ svg {
   }
   .left-section {
     float: none;
+    margin-left: 0;
   }
   .left-section > h1 {
     position: static;
@@ -334,6 +335,9 @@ svg {
   }
   .about > p {
     margin: 0;
+  }
+  .header .background {
+    height: clamp(400px, 200vw, 600px);
   }
 
   /* projects */
