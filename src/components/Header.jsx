@@ -23,11 +23,14 @@ export default function Header() {
       <div className="about">
         <h2>About me</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mollis
-          vehicula justo sed interdum. Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Suspendisse id orci ac mi viverra condimentum eu id
-          quam. Praesent leo dolor, iaculis et velit sit amet, lobortis ultrices
-          quam.
+          I am a web developer and a CS graduate who spends his time bettering
+          his knowledge and making projects. <br />
+          Lately, i have been contributing and helping at{" "}
+          <a href="https://theodinproject.com/">The Odin Project</a>. <br />
+          My most proud work is the <a href="#Battleship">
+            battleship game
+          </a>{" "}
+          for the effort and modular design displayed in the code.
         </p>
         <div className="links">
           <a

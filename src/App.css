@@ -82,7 +82,7 @@ h3 {
   align-items: center;
 
   max-width: 1130px;
-  padding: 50px 50px;
+  padding: 50px 50px 0px 50px;
 }
 .header .background {
   box-sizing: border-box;
@@ -132,18 +132,27 @@ polygon {
   /* width: 600px; */
   padding: 0px 20px 0px 20px;
   box-shadow: 2px 0px 5px 3px rgb(0, 0, 0, 0.2);
+  position: relative;
 }
 .about .links {
   margin-top: 20px;
   padding-bottom: 20px;
   justify-content: end;
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
 }
 .about > h2 {
   font-size: 45px;
 }
 .about > p {
-  font-size: 22px;
+  font-size: 20px;
   color: rgb(0, 0, 0, 0.8);
+}
+
+.header a {
+  text-decoration: none;
+  color: #0891b2;
 }
 
 /* projects section */
@@ -267,9 +276,9 @@ svg {
     right: 1ch;
   }
   .about {
-    width: clamp(380px, 50vw, 570px);
-    height: clamp(470px, 50vw, 570px);
-    margin-left: 20vw;
+    width: clamp(470px, 50vw, 700px);
+    height: clamp(470px, 50vw, 600px);
+    margin-left: 10vw;
     margin-top: 200px;
   }
   .about h2 {
@@ -331,6 +340,11 @@ svg {
     box-shadow: none;
     max-width: 500px;
     background-color: transparent;
+  }
+
+  .about .links {
+    position: static;
+    margin-top: 30px;
   }
   .about > h2 {
     margin: 0;

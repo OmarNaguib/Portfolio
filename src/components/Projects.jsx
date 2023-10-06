@@ -4,7 +4,7 @@ import openIcon from "./../assets/icons/open-in-new.svg";
 export default function Projects() {
   const projects = data.map((dataItem) => {
     return (
-      <div key={dataItem.name} className="project">
+      <div key={dataItem.name} id={dataItem.name} className="project">
         <img src={dataItem.screenshot} alt={dataItem.name + " screenshot"} />
         <div className="row">
           <h3>{dataItem.name}</h3>
