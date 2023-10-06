@@ -65,7 +65,12 @@ export default function Contact() {
           >
             <img src={linkedinIcon} alt="" className="icon" />
           </a>
-          <a href="" target="_blank" rel="noreferrer" aria-label="linkedin">
+          <a
+            href="https://twitter.com/ON__DEV"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="linkedin"
+          >
             <img src={twitterIcon} alt="" className="icon" />
           </a>
         </div>
