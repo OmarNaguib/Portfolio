@@ -69,7 +69,7 @@ export default function Contact() {
             href="https://twitter.com/ON__DEV"
             target="_blank"
             rel="noreferrer"
-            aria-label="linkedin"
+            aria-label="twitter"
           >
             <img src={twitterIcon} alt="" className="icon" />
           </a>
