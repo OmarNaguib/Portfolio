@@ -5,6 +5,8 @@ import battleshipPic from "./screenshots/compressed/battleship.png";
 import todoPic from "./screenshots/compressed/todoList.png";
 import weatherAppPic from "./screenshots/compressed/weatherApp.png";
 
+import uniqid from "uniqid";
+
 const Project = (name, screenshot, repo, description, live) => {
   return {
     name,
@@ -12,6 +14,7 @@ const Project = (name, screenshot, repo, description, live) => {
     repo,
     description,
     live,
+    id: uniqid(),
   };
 };
 

@@ -34,9 +34,9 @@ const phoneIcon = (
 
 export default function Contact() {
   return (
-    <section className="contact">
+    <section className="contact" aria-labelledby="contact-me">
       <div className="contact-info">
-        <h2>Contact me</h2>
+        <h2 id="contact-me">Contact me</h2>
         <p className="prompt">
           Please get in touch if you think our work could be mutually
           beneficial!

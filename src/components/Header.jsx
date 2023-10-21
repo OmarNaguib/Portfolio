@@ -6,14 +6,14 @@ import twitterIcon from "./../assets/icons/twitter.svg";
 
 export default function Header() {
   return (
-    <section className="header">
+    <section className="header" aria-labelledby="about-me">
       <div className="left-section">
         <picture>
           <source srcSet={headerPortraitPic} media="(max-width: 660px)" />
           <source srcSet={headerSquarePic} media="(min-width: 660px)" />
           <img
             src={headerSquarePic}
-            alt="presenting"
+            alt="Making a presentation"
             className="header-image"
           />
         </picture>
@@ -21,7 +21,7 @@ export default function Header() {
         <h1>Omar Naguib</h1>
       </div>
       <div className="about">
-        <h2>About me</h2>
+        <h2 id="about-me">About me</h2>
         <p>
           I am a web developer and a CS graduate who spends his time bettering
           his knowledge and making projects. <br />

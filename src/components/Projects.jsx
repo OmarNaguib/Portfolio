@@ -4,10 +4,16 @@ import openIcon from "./../assets/icons/open-in-new.svg";
 export default function Projects() {
   const projects = data.map((dataItem) => {
     return (
-      <div key={dataItem.name} id={dataItem.name} className="project">
+      <li
+        key={dataItem.name}
+        id={dataItem.name}
+        className="project"
+        aria-labelledby={dataItem.id + "Header"}
+        aria-describedby={dataItem.id + "Description"}
+      >
         <img src={dataItem.screenshot} alt={dataItem.name + " screenshot"} />
         <div className="row">
-          <h3>{dataItem.name}</h3>
+          <h3 id={dataItem.id + "Header"}>{dataItem.name}</h3>
           <div className="links">
             <a
               href={dataItem.repo}
@@ -27,14 +33,14 @@ export default function Projects() {
             </a>
           </div>
         </div>
-        <p>{dataItem.description}</p>
-      </div>
+        <p id={dataItem.id + "Description"}>{dataItem.description}</p>
+      </li>
     );
   });
   return (
-    <section className="work">
-      <h2>My Work</h2>
-      <div className="projects">{projects}</div>
+    <section className="work" aria-labelledby="my-work">
+      <h2 id="my-work">My Work</h2>
+      <ul className="projects">{projects}</ul>
     </section>
   );
 }
