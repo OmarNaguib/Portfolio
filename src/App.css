@@ -11,6 +11,7 @@ p {
 li {
   padding: 0;
   list-style: none;
+  display: contents;
 }
 ul {
   padding: 0;
