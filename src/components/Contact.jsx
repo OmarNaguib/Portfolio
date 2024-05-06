@@ -46,7 +46,7 @@ export default function Contact() {
         </p>
         <div className="phone-email">
           <p>{phoneIcon}+2 01000549518</p>
-          <p>{mailIcon}omar.nagiub2001@gmail.com</p>
+          <p>{mailIcon}OmarNaguibDev@gmail.com</p>
         </div>
         <div className="links">
           <a
