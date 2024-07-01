@@ -42,7 +42,7 @@ export default function Contact() {
           beneficial!
         </p>
         <p>
-          Mansoura, <br /> Dakahlia, Egypt
+          Maadi, <br /> Cairo, Egypt
         </p>
         <div className="phone-email">
           <p>{phoneIcon}+2 01000549518</p>
